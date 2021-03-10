@@ -8,8 +8,11 @@ class Course{
     private:
 
         std::string _identifiant;
-        std::string _scoreEnregistrer; // maximum 3 //
-        std::string _scoreJoueur;
+        int _scoreEnregistrer; // maximum 3 //
+        int _scoreJoueur1;
+        int _scoreJoueur2;
+        int _scoreJoueur3;
+        int _scoreJoueur4;
         std::string _typeCourse;
         std::string _nomJoueur;
 
