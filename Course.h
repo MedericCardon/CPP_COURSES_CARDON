@@ -5,11 +5,16 @@
 class Course{
     private:
         std::string _identifiant;
-        std::string _score; // maximum 3 //
+        std::string _scoreEnregistrer; // maximum 3 //
+        std::string _scoreJoueur;
+        std::string _typeCourse;
         std::string _nomJoueur;
 
     public:
-        void afficher();
+        void afficherNomJoueur();
+        void afficherGrilleScore();
+        void afficherCourse();
+        void classement();
 
 
     // Constructeur //
