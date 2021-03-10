@@ -9,8 +9,7 @@ using namespace std;
 
 int main(){
 
-    std::cout<<"hello"<<std::endl;
     
-    Course Course1 =Course("course tier 1","facile");
+    Course Course1 =Course("Course tier 1","facile");
     Course1.afficherGrilleScore();
 }
