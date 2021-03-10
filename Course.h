@@ -1,9 +1,12 @@
-#include <string>
 #include <iostream>
+#include <string>
+
 
 
 class Course{
+
     private:
+
         std::string _identifiant;
         std::string _scoreEnregistrer; // maximum 3 //
         std::string _scoreJoueur;
@@ -11,6 +14,7 @@ class Course{
         std::string _nomJoueur;
 
     public:
+    
         void afficherNomJoueur();
         void afficherGrilleScore();
         void afficherCourse();
@@ -20,6 +24,6 @@ class Course{
     // Constructeur //
 
         Course();                  
-        Course(std::string identifiant, std::string nomJoueur);
+        Course(std::string identifiant, std::string type);
 };
         
